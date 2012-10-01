@@ -1,18 +1,10 @@
 <CsoundSynthesizer>
 <CsOptions>
--d
--odac:system:playback_
--M hw:0,0
--+rtaudio=jack
-;-+rtaudio=alsa
--+rtmidi=alsa
---midi-key-pch=4
-;--midi-velocity-amp=5
+-odac
 </CsOptions>
 ; ==============================================
 <CsInstruments>
 
-;sr	=	96000
 sr	=	44100
 ksmps	=	1
 nchnls	=	2
